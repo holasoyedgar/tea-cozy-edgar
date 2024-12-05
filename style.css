@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    font-size: 22px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.9;
+    padding: 0 10px;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    z-index: 999;
+}
+
+nav #logo {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 70px;
+} 
+
+#mission, #locations {
+    opacity: 0.5;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+#mission-img {
+    height: 700px;
+    width: 80%;
+}
+
+#mission-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    min-height: 70px;
+    padding: 5px 0;
+}
+
+#featured-tea {
+    max-width: 1000px;
+    margin: 50px auto 0;
+}
+
+#featured-tea-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+    min-height: 70px;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    margin-bottom: 10px;
+}
+
+.product-description {
+    margin-top: 10px;
+}
+
+.product-img {
+    width: 300px;
+    height: 200px;
+}
+
+#locations-img {
+    height: 500px;
+    width: 80%;
+}
+
+#locations-info {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    padding: 5px 0;
+}
+
+#locations-text {
+    margin-bottom: 15px;
+}
+
+#location-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.location {
+    background-color: black;
+    opacity: 1;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.location h3:not(:first-of-type) {
+    font-weight: 100;
+}
+
+footer {
+    padding: 20px 0 30px 20px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+
+#copyright {
+    text-align: left;
+}
